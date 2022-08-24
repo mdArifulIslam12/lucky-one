@@ -1,0 +1,30 @@
+.container-fluid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.shoes {
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.product-details h2 {
+  background-color: bisque;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 698px) {
+  .container-fluid {
+    display: grid;
+    grid-template-columns: repeat(2fr);
+  }
+  .shoes {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .product-details {
+    margin: 10px;
+  }
+  .product-details h2 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}

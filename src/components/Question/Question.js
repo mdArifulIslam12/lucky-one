@@ -1,0 +1,14 @@
+import React from 'react';
+import './Question.css'
+const Question = () => {
+    return (
+        <div className='question'> 
+            <h4>Question-1: How React Work?</h4>
+            <p> <span>Ans: </span> A JavaScript library for building user interfaces.React.js is one of the most talked about JavaScript web frameworks in years. Alongside Angular, and more recently Vue, React is a critical tool that has had a big impact on the way we build web applications. But it's hard to find a better description of React.js than the single sentence.It's a library. For building user interfaces. This is perfect because, more often than not, this is all we want. The best part about this description is that it highlights Reacts simplicity. It's not a mega framework. It's not a full-stack solution thats going to handle everything from the database to real-time updates over web socket connections. We don't actually want most of these pre-packaged solutions, because in the end, they usually cause more problems than they solve. Facebook sure did listen to what we want.React works in declarative code. To show what we mean by declarative code, we want you to imagine the following code expressed as an app. What you picture could look like the screen below, with a navbar, a header, a filter, and a list. That's because each line of code declares what each element of the app is. Data: This is data that comes from somewhere (the component doesn't care where), and is rendered by the component. Events: This is code that we write for responding to user interactions. JSX: This is the syntax of React components used to describe UI structures.</p>
+            <h4>Question-1: How use state works?</h4>
+            <p> <span>Ans: </span> The useState() is a Hook that allows you to have state variables in functional components. React has two types of components, one is class components which are ES6 classes that extend from React and the other is functional components. Class components a Component and can have state and lifecycle methods: class Message extends React. The useState hook is a special function that takes the initial state as an argument and returns an array of two entries. The first rule means that, even inside functional components, you shouldn't call useState in loops, conditions, or nested functions because React relies on the order in which useState functions are called to get the correct value for a particular state variable.useState is a Hook (function) that allows you to have state variables in functional components. You pass the initial state to this function and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value</p>
+        </div>
+    );
+};
+
+export default Question;

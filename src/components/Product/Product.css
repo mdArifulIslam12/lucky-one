@@ -1,0 +1,19 @@
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: rgb(243, 208, 144);
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
+.icon {
+  margin-left: 8px;
+}
+.btn:hover {
+  background-color: orange;
+}
+@media screen and (max-width: 698px) {
+  .btn {
+    font-size: 14px;
+  }
+}
